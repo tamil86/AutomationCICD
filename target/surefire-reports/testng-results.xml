@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T15:05:17Z" name="Suite" finished-at="2025-02-13T15:06:30Z" duration-ms="72194">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:Automation.ErrorValidationTest@545b995e]" name="loginErrorValidation" class="Automation.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-02-13T15:05:17Z" name="Error Validation Test" finished-at="2025-02-13T15:05:38Z" duration-ms="20818">
+      <class name="Automation.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Automation.ErrorValidationTest@545b995e]" started-at="2025-02-13T15:05:17Z" name="launchApp" finished-at="2025-02-13T15:05:25Z" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:Automation.ErrorValidationTest@545b995e]" started-at="2025-02-13T15:05:25Z" name="loginErrorValidation" finished-at="2025-02-13T15:05:29Z" duration-ms="4150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Automation.ErrorValidationTest@545b995e]" started-at="2025-02-13T15:05:29Z" name="launchApp" finished-at="2025-02-13T15:05:34Z" duration-ms="4681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="productErrorValidation()[pri:0, instance:Automation.ErrorValidationTest@545b995e]" started-at="2025-02-13T15:05:34Z" name="productErrorValidation" finished-at="2025-02-13T15:05:38Z" duration-ms="4355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+      </class> <!-- Automation.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-02-13T15:05:17Z" name="Submit Order Test" finished-at="2025-02-13T15:06:30Z" duration-ms="72194">
+      <class name="Automation.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:05:18Z" name="launchApp" finished-at="2025-02-13T15:05:25Z" duration-ms="7065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:05:25Z" name="submitOrder" data-provider="getData" finished-at="2025-02-13T15:05:54Z" duration-ms="29106" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=anshika@gmail.com, password=Iamking@000, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at Automation.SubmitOrderTest.submitOrder(SubmitOrderTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:05:54Z" name="launchApp" finished-at="2025-02-13T15:06:00Z" duration-ms="6172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:06:00Z" name="submitOrder" data-provider="getData" finished-at="2025-02-13T15:06:18Z" duration-ms="17440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=anshika@gmail.com, password=Iamking@000, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:06:18Z" name="launchApp" finished-at="2025-02-13T15:06:25Z" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:06:25Z" name="submitOrder" data-provider="getData" finished-at="2025-02-13T15:06:30Z" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=shetty@gmail.com, password=Iamking@000, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="orderHistoryPage()[pri:0, instance:Automation.SubmitOrderTest@3b96c42e]" started-at="2025-02-13T15:06:30Z" name="orderHistoryPage" finished-at="2025-02-13T15:06:30Z" depends-on-methods="Automation.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SubmitOrderTest.orderHistoryPage()[pri:0, instance:Automation.SubmitOrderTest@3b96c42e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SubmitOrderTest.orderHistoryPage()[pri:0, instance:Automation.SubmitOrderTest@3b96c42e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryPage -->
+      </class> <!-- Automation.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
