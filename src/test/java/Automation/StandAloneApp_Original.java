@@ -28,7 +28,8 @@ public class StandAloneApp_Original {
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/client");
 
-	
+		System.out.println("testing change for CI----------CD");
+
 		// login page
 		driver.findElement(By.id("userEmail")).sendKeys("anshika@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Iamking@000");
